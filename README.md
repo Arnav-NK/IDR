@@ -1,2 +1,2 @@
 # Institute of diigital risk management 
-stack used css, html ,js 
+tech-stack used css, html ,js 
