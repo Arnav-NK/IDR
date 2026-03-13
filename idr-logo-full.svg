@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80" role="img" aria-label="Institute of Digital Risk">
+  <defs>
+    <linearGradient id="cubeTopGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8C00;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cubeLeftGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d2d2d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cubeRightGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3a3a3a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4d4d4d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Icon -->
+  <polygon points="40,8 68,24 40,40 12,24" fill="url(#cubeTopGrad2)"/>
+  <polygon points="12,24 40,40 40,64 12,48" fill="url(#cubeLeftGrad2)"/>
+  <polygon points="68,24 40,40 40,64 68,48" fill="url(#cubeRightGrad2)"/>
+  <!-- Alert triangle -->
+  <polygon points="40,18 50,36 30,36" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linejoin="round" opacity="0.9"/>
+  <line x1="40" y1="23" x2="40" y2="30" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" opacity="0.9"/>
+  <circle cx="40" cy="33" r="1.2" fill="#ffffff" opacity="0.9"/>
+  <!-- Divider -->
+  <line x1="84" y1="16" x2="84" y2="64" stroke="#e0e0e0" stroke-width="1"/>
+  <!-- Text: IDR large -->
+  <text x="96" y="42" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="800" font-size="28" letter-spacing="3" fill="#1a1a1a">IDR</text>
+  <!-- Text: Institute of Digital Risk small -->
+  <text x="97" y="56" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="9.5" letter-spacing="2.5" fill="#FF6B00" text-transform="uppercase">INSTITUTE OF DIGITAL RISK</text>
+</svg>
