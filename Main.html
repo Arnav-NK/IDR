@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Institute of Digital Risk (IDR)</title>
+   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="nav-header" id="navbar">
+    <nav>
+      <div class="logo">
+        <div class="logo-cube"></div>
+        IDR
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Pillars</a></li>
+        <li><a href="#community">Community</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn-primary">Register Interest</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Advancing the Future of Digital Risk</h1>
+      <p>We train and deploy elite digital risk practitioners. Combining rigorous academic collaboration with frontline industry practice to secure high-consequence environments.</p>
+      <div class="hero-buttons">
+        <a href="#services" class="btn-primary">Explore Programs</a>
+        <a href="#contact" class="btn-secondary">Hire Talent</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 class="section-title">About IDR</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>The Institute of Digital Risk (IDR) is a premier industry-led training and deployment institute. We focus exclusively on cultivating talent for digital, cyber, and technology risk roles within regulated, high-consequence environments.</p>
+          <p>We bridge the gap between theory and execution. By emphasizing the critical link between academic insight and real-world application, we ensure our practitioners are ready to tackle tomorrow's threats today.</p>
+        </div>
+        <div class="about-highlight">
+          <h3>Academic Excellence Meets Industry Reality</h3>
+          <p style="margin-top: 1rem;">Partnered with leading UK universities, our curriculum translates cutting-edge academic research directly into actionable, real-world projects and deployments for our partners.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="services-bg">
+      <section id="services">
+        <h2 class="section-title">Our Service Pillars</h2>
+        <div class="services-grid">
+          <div class="card">
+            <h3>Academy</h3>
+            <p>Intensive training and bootcamps designed for both students and seasoned professionals. We build the foundational and advanced skills required to manage digital risk at scale.</p>
+          </div>
+          <div class="card">
+            <h3>Innovation & Incubation</h3>
+            <p>Driving the future of security. We actively develop proprietary IP, formulate future-proof risk models, and establish governance frameworks for emerging technologies like AI.</p>
+          </div>
+          <div class="card">
+            <h3>Advisory Services</h3>
+            <p>Expert consulting to help organizations navigate complex compliance landscapes. We guide the implementation of critical frameworks including NIST, ISO 27001, and NIS2.</p>
+          </div>
+        </div>
+
+        <div class="pipeline">
+          <div class="pipe-step">
+            <div class="pipe-icon">📚</div>
+            <strong>Train</strong>
+          </div>
+          <div class="pipe-step">
+            <div class="pipe-icon">🤝</div>
+            <strong>Hire</strong>
+          </div>
+          <div class="pipe-step">
+            <div class="pipe-icon">💡</div>
+            <strong>Innovate</strong>
+          </div>
+          <div class="pipe-step">
+            <div class="pipe-icon">🚀</div>
+            <strong>Deploy</strong>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="community-bg">
+      <section id="community">
+        <h2 class="section-title">Who We Serve</h2>
+        <div class="community-content">
+          <p style="font-size: 1.15rem; line-height: 1.8;">
+            Our community is built on excellence and resilience. We cater to students, early-career professionals, and established practitioners seeking rigorous upskilling in digital and cyber risk. 
+            <br><br>
+            Our deployed talent primarily serves critical sectors—including <strong>Financial Services</strong> and <strong>National Critical Infrastructure</strong>—where failure is not an option and proactive risk management is a core business driver.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <section id="contact">
+      <h2 class="section-title" style="text-align: center; margin-bottom: 3rem;">Register Your Interest</h2>
+      <div class="contact-container">
+        <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Form submitted successfully!');">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required placeholder="Jane Doe">
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required placeholder="jane@example.com">
+          </div>
+          <div class="form-group">
+            <label for="interest">I am interested in:</label>
+            <select id="interest" name="interest" style="width: 100%; padding: 0.8rem; border: 1px solid #CCC; border-radius: 4px; font-family: inherit;">
+              <option value="academy">Academy & Training</option>
+              <option value="hiring">Hiring Talent</option>
+              <option value="advisory">Advisory Services</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="How can we help you?"></textarea>
+          </div>
+          <button type="submit" class="btn-primary submit-btn">Submit Inquiry</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Institute of Digital Risk. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Add shadow to navbar on scroll
+    window.addEventListener('scroll', () => {
+      const nav = document.getElementById('navbar');
+      if (window.scrollY > 10) {
+        nav.style.boxShadow = '0 4px 15px rgba(0,0,0,0.1)';
+      } else {
+        nav.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
+      }
+    });
+  </script>
+</body>
+</html>
